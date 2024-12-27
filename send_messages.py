@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 # Load webhook URL from environment variables
-WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1322319995908132975/1zfXSl69FniZHyhj5MNyR0T4_49mfdjFLpnBb4Ek8d7daoHjC2bH-KxM49Iy2rb-aR0B")
 
 def send_message(message):
     if not WEBHOOK_URL:
